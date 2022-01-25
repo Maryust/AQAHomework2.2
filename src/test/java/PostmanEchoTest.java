@@ -17,7 +17,7 @@ public class PostmanEchoTest {
 // Проверки
         .then()
         .statusCode(200)
-        .body("data", equalTo("Everybody - dance"))
+        .body("data", equalTo("Everybody"))
         ;
     }
 
